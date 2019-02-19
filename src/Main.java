@@ -32,8 +32,9 @@ public class Main {
 //        System.out.println(a2.getPrice());
 //        System.out.println(a2.getPriceWithTax(23));
 
-        Auto a3= new Auto("VW","Passerati",1920,"Diesel","REd",
-                44443,'W');
-        System.out.println(a3);
+//        Auto a3= new Auto("VW","Passerati",1920,"Diesel","REd",
+//                44443,'W');
+//        System.out.println(a3);
+
     }
 }
