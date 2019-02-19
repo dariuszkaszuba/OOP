@@ -31,6 +31,10 @@ public class UserContoller {
     }
 
     public void sortByBirthdate() {
+//        boolean condition=true;
+//        if(type.equals("ACS")){
+//            condition=false;
+//        }
         for (int j = 0; j < index; j++) {
             for (int i = 1; i < index; i++) {
                 if (!birthDateComparator(i - 1, i)) {
