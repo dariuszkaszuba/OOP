@@ -2,21 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="76d47418-41bb-4347-a306-7da8ea1da35a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/OOP-basic/CarMain.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/OOP-basic/controller/CarController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/OOP-basic/controller/Company.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/OOP-basic/model/Car.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/OOP-basic/model/Employee.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CarMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/controller/CarController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/controller/Company.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controller/UserContoller.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/OOP-basic/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/OOP-basic/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Employee.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -40,23 +27,23 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="21" />
+          <entry key="java" value="22" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="21" />
+          <entry key="JAVA" value="22" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="1" />
-          <entry key="java" value="2599" />
+          <entry key="java" value="2729" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2599" />
+          <entry key="JAVA" value="2729" />
           <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
@@ -94,11 +81,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/model/User.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+            <state relative-caret-position="200">
+              <caret line="10" column="164" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="164" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1228#1229#0" expanded="true" />
@@ -131,6 +118,18 @@
                 <element signature="e#2221#2222#0" expanded="true" />
                 <element signature="e#2277#2278#0" expanded="true" />
                 <element signature="e#2322#2323#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/controller/UserContoller.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -208,6 +207,7 @@
         <option value="$PROJECT_DIR$/src/controller/CarController.java" />
         <option value="$PROJECT_DIR$/src/CarMain.java" />
         <option value="$PROJECT_DIR$/src/model/User.java" />
+        <option value="$PROJECT_DIR$/src/controller/UserContoller.java" />
       </list>
     </option>
   </component>
@@ -263,7 +263,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550565865115" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550566686908" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -338,12 +338,12 @@
       <workItem from="1550483129915" duration="18423000" />
       <workItem from="1550526786464" duration="1278000" />
       <workItem from="1550563062765" duration="205000" />
-      <workItem from="1550565526848" duration="338000" />
+      <workItem from="1550565526848" duration="1148000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21997000" />
+    <option name="totallyTimeSpent" value="22807000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -459,8 +459,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/model/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        <state relative-caret-position="200">
+          <caret line="10" column="164" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="164" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1228#1229#0" expanded="true" />
@@ -493,6 +493,16 @@
             <element signature="e#2221#2222#0" expanded="true" />
             <element signature="e#2277#2278#0" expanded="true" />
             <element signature="e#2322#2323#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controller/UserContoller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
