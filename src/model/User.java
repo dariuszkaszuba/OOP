@@ -8,6 +8,7 @@ public class User {
     private LocalDate birth_datel;
     private LocalDateTime registration_date_time;
 
+
     public User(String name, String lastname, String login, String password, String email, String phone, LocalDate birth_datel, LocalDateTime registration_date_time) {
         this.name = name;
         this.lastname = lastname;

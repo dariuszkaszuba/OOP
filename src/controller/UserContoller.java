@@ -11,7 +11,7 @@ public class UserContoller {
 
     public void addUser(String name, String lastname, String login, String password, String email, String phone, LocalDate birth_datel, LocalDateTime registration_date_time){
         User u=new User(name, lastname, login, password, email, phone,birth_datel, registration_date_time);
-
+        u.setRegistration_date_time(u.getRegistration_date_time().plusHours(1));
         users[index]=u;
         index++;
     }
@@ -21,4 +21,5 @@ public class UserContoller {
             System.out.println(users[i]);
         }
     }
+
 }

@@ -26,16 +26,8 @@ public class UserMain {
                 LocalDate.of(2034,3,01),
                 LocalDateTime.now()
         );
-        uc.addUser(
-                "V",
-                "R",
-                "m",
-                "l",
-                "m@wp.pl",
-                "450909099",
-                LocalDate.of(2004,5,01),
-                LocalDateTime.now()
-        );
+
+
         uc.getAllUsers();
     }
 }
